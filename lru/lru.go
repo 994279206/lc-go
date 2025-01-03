@@ -1,5 +1,11 @@
 package lru
 
+/*
+
+lur 最近最少使用缓存 算法实现
+
+*/
+
 type LRUCache struct {
 	size       int
 	cap        int
