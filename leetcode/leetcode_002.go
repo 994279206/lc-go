@@ -9,7 +9,7 @@ func func002(a []int) int {
 	if len(a) <= 0 {
 		return 0
 	}
-	i := 0
+	i := 0 //i：慢指针，j：快指针
 	for j := 1; j < len(a); j++ {
 		if a[i] != a[j] {
 			i++
